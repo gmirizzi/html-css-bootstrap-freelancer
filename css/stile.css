@@ -1,19 +1,20 @@
 :root {
     text-align: center;
     --verdeacqua: #1abc9cff;
+    --nero: #2c3e50ff;
 }
 
 h1 {
     text-transform: uppercase;
 }
 
-nav {
-    background-color: #2c3e50ff;
+nav, footer footer{
+    background-color: var(--nero);
     color: white;
     padding: 1em;
 }
 
-header {
+header, #about {
     background-color: var(--verdeacqua);
     color: white;
 }
@@ -24,7 +25,9 @@ header {
     margin-bottom: 1em;
 }
 
-#about {
-    background-color: var(--verdeacqua);
+footer {
+    background-color: #3a546dff;
+    color: white;
 }
+
 
