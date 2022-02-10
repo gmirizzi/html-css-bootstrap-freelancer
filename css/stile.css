@@ -1,5 +1,6 @@
 :root {
     text-align: center;
+    --verdeacqua: #1abc9cff;
 }
 
 h1 {
@@ -13,7 +14,7 @@ nav {
 }
 
 header {
-    background-color: #1abc9cff;
+    background-color: var(--verdeacqua);
     color: white;
 }
 
@@ -21,5 +22,9 @@ header {
     height: 100px;
     background-color: red;
     margin-bottom: 1em;
+}
+
+#about {
+    background-color: var(--verdeacqua);
 }
 
