@@ -1,3 +1,7 @@
+:root {
+    text-align: center;
+}
+
 h1 {
     text-transform: uppercase;
 }
@@ -5,5 +9,17 @@ h1 {
 nav {
     background-color: #2c3e50ff;
     color: white;
+    padding: 1em;
+}
+
+header {
+    background-color: #1abc9cff;
+    color: white;
+}
+
+.img {
+    height: 100px;
+    background-color: red;
+    margin-bottom: 1em;
 }
 
