@@ -2,6 +2,7 @@
     text-align: center;
     --verdeacqua: #1abc9cff;
     --nero: #2c3e50ff;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -15,6 +16,11 @@ nav, footer footer{
 
 nav {
     text-align: initial;
+    padding: 1em;
+}
+
+nav .row {
+    align-items: center;
 }
 
 nav #menu ul{
@@ -22,17 +28,24 @@ nav #menu ul{
     list-style: none;
     justify-content: space-between;
     gap: 1em;
+    margin:0
 }
 
-nav a {
+a {
     text-decoration: none;
     color: unset;
 }
 
-nav button {
-    display: none;
+button {
     background-color: unset;
     color: unset;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+nav button {
+    display: none;
+    line-height: 1em;
 }
 
 @media screen and (max-width: 768px) {
