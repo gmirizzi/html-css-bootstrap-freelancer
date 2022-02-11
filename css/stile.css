@@ -66,9 +66,13 @@ header, #about {
 }
 
 .img {
-    height: 100px;
+    height: 250px;
     background-color: red;
     margin-bottom: 1em;
+}
+
+section {
+    padding: 2em 0;
 }
 
 footer {
