@@ -14,15 +14,6 @@ nav, footer footer{
     color: white;
 }
 
-nav {
-    text-align: initial;
-    padding: 1em;
-}
-
-nav .row {
-    align-items: center;
-}
-
 nav #menu ul{
     display: flex;
     list-style: none;
@@ -36,17 +27,8 @@ a {
     color: unset;
 }
 
-button {
-    background-color: unset;
-    color: unset;
-    border: 1px solid;
-    border-radius: .2em;
-    padding: .2em .5em;
-}
-
 nav button {
     display: none;
-    line-height: 1em;
 }
 
 @media screen and (max-width: 768px) {
@@ -65,21 +47,26 @@ header, #about {
 }
 
 header img {
-    height: 400px;
-    margin-top: 3em;
+    height: 300px;
+}
+
+.bar {
+    height: 2px;
+}
+
+header .bar, #about .bar {
+    background-color: white;
+}
+
+#portfolio .bar, #contact .bar {
+    background-color: black;
 }
 
 #portfolio img {
     width: 100%;
 }
 
-section {
-    padding: 2em 0;
-}
-
 footer {
     background-color: #3a546dff;
     color: white;
 }
-
-
