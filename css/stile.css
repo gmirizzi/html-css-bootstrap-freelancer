@@ -59,16 +59,18 @@ nav button {
     }
 }
 
-
 header, #about {
     background-color: var(--verdeacqua);
     color: white;
 }
 
-.img {
-    height: 250px;
-    background-color: red;
-    margin-bottom: 1em;
+header img {
+    height: 400px;
+    margin-top: 3em;
+}
+
+#portfolio img {
+    width: 100%;
 }
 
 section {
