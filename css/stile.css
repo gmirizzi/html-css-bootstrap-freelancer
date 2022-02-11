@@ -79,3 +79,21 @@ footer {
     background-color: #3a546dff;
     color: white;
 }
+
+footer section:last-child a {
+    color: var(--verdeacqua);
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+}
+
+.rounded-circle {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
