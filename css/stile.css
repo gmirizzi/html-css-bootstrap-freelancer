@@ -10,7 +10,7 @@ h1 {
 }
 
 footer h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 nav, footer footer{
@@ -33,6 +33,10 @@ a {
 
 nav button {
     display: none;
+    background-color: unset;
+    border: 1px solid white;
+    border-radius: .2em;
+    color: unset;
 }
 
 @media screen and (max-width: 768px) {
