@@ -62,8 +62,25 @@ header .bar, #about .bar {
     background-color: black;
 }
 
-#portfolio img {
-    width: 100%;
+.card {
+    cursor: pointer;
+}
+
+.card-text {
+    display: none;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card:hover .card-text{
+    display: initial;
+}
+
+.card:hover .card-img{
+    filter: brightness(0.5);
 }
 
 form {
