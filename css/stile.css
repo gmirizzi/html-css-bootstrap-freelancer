@@ -34,8 +34,6 @@ a {
 nav button {
     display: none;
     background-color: unset;
-    border: 1px solid white;
-    border-radius: .2em;
     color: unset;
 }
 
