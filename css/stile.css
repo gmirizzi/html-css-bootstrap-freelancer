@@ -64,6 +64,7 @@ header .bar, #about .bar {
 /* effetto sulle cards */
 .card {
     cursor: pointer;
+    border: none;
 }
 
 .card-text {
